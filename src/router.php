@@ -1,8 +1,7 @@
 <?php
 
-    $routes = array[
-        "home" => "home.html",
-        "about" => "about.html"
-    ]
-
-    
+    $routes = [
+        "home" => "home.php",
+        "about" => "about.php"
+    ];
+?>
