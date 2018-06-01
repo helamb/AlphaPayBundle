@@ -1,0 +1,26 @@
+# Useful links 
+# http://www.htaccess-guide.com/ 
+# http://www.htaccess-guide.com/redirects/
+
+# Examples avec explication
+# https://www.addedbytes.com/blog/url-rewriting-for-beginners (More about URL Rewriting)
+
+
+
+############################### Code ###############################
+#Activate redirection
+RewriteEngine On 
+
+# Pattern:
+# ^[url condition (regex)] [redirection target]
+
+# we want to redirect all requests so leave condition empty 
+# redirection target is src/router.php
+# options[NC] => no case sensivity
+# options[L] => (last) accept no other redirections
+
+RewriteRule ^  src/router.php [NC,L]
+######################################################################
+
+
+

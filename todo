@@ -1,0 +1,9 @@
+* Implement routers required functions
+    * getRequestedUrl()
+    * parseRequestedUrl()
+    * getControllerFile()
+    * redirect()
+
+* Add the 5 missing controller files (identify them with unique message [echo pageName])
+* Add test cases for all routes.
+* Add test case for unhandled request (should redirect to 404 controller)
